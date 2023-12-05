@@ -1,0 +1,23 @@
+@media(max-width: 1300px){
+    .language_menu,
+    .login_menu{
+        display: none;
+    }
+
+    .hamburger{
+        margin-right: -10%;
+    }
+    
+    #mobile_icon{
+        display: block;
+    }
+    #desktop_icon{
+        display: none;
+    }
+
+    .sticky_nav{
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+    }
+
+}
